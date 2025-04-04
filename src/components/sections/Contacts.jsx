@@ -1,5 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
+import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const Contacts = () => {
 
@@ -67,6 +69,48 @@ export const Contacts = () => {
                         Send Message
                     </button>
                 </form>
+                <div className="home-about-social">
+                    <h1>FIND ME</h1>
+                    <p>Feel free to <span className="text-purple-500">connect </span>with me</p>
+                    <ul className="home-about-social-links">
+                        <li className="social-icons">
+                            <a
+                                href="https://github.com/Gigireact"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons">
+                                <AiFillGithub />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://x.com/Gift_udofiah"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons">
+                                <AiOutlineTwitter />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://www.linkedin.com/in/soumyajit4419/"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour  home-social-icons">
+                                <FaLinkedinIn />
+                            </a>
+                        </li>
+                        <li className="social-icons">
+                            <a
+                                href="https://www.instagram.com/gift_udofiah"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="icon-colour home-social-icons">
+                                <AiFillInstagram />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     )

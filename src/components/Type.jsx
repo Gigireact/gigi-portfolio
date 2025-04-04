@@ -9,7 +9,7 @@ function Type() {
           "Software Web Developer",
           "Freelancer",
           "Web3 Enthusiast",
-          "Co-founder of 4D solutions",
+          "Co-founder, 4D solutions",
         ],
         autoStart: true,
         loop: true,
