@@ -69,7 +69,7 @@ html, body {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 40px;
   color: white !important;
 }
 
@@ -110,7 +110,7 @@ html, body {
 }
 
 .home-social-icons:hover::before {
-  transform: scale(1.1);
+  transform: scale(1.5);
   box-shadow: 0 0 15px #801f95;
 }
 
