@@ -7,9 +7,10 @@ export const Projects = () => {
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20">
             <div className="max-w-5xl mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent text-center">
+                <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent text-center">
                     Featured Projects
                 </h2>
+                <h2 className="mb-8 text-gray-400">These are a few of my projects i have worked on</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                     {/* first project i.e random quotes app*/}
@@ -52,7 +53,6 @@ export const Projects = () => {
                                 View Projects --
                             </a>
                         </div>
-
                     </div>
 
                     {/* Third project i.e bokku */}
@@ -74,7 +74,6 @@ export const Projects = () => {
                                 View Projects --
                             </a>
                         </div>
-                        
                     </div>
 
                     {/* Fourth project i.e five clock*/}
@@ -96,7 +95,6 @@ export const Projects = () => {
                                 View Projects --
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
