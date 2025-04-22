@@ -69,10 +69,10 @@ export const Contacts = () => {
                         Send Message
                     </button>
                 </form>
-                <div className="home-about-social">
+                <div md={12} className="home-about-social">
                     <h1>FIND ME</h1>
                     <p>Feel free to <span className="text-purple-500">connect </span>with me</p>
-                    <ul className="home-about-social-links">
+                    <ul className="pt-10">
                         <li className="social-icons">
                             <a
                                 href="https://github.com/Gigireact"
