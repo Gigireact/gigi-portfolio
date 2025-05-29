@@ -66,7 +66,7 @@ export const About = () => {
                             </div>
                             <div>
                                 <ImPointRight style={{marginTop: "10px"}}/><h4 className="font-semibold text-xl">Intern at Petroleum Training Institute, ICT Center (2022)</h4>
-                                <p>•  Strong troubleshooting and diagnostic ability.</p>
+                                <p>•  Strong hardware and software troubleshooting and diagnostic ability.</p>
                                 <p>•  Solid understanding of computer hardware and OS functionality.</p>
                                 <p>•  Knowledge of common cybersecurity threats and how to prevent them.</p>
                                 <p>•  Basic networking and configuration skills.</p>

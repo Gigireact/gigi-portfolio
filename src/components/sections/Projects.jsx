@@ -29,7 +29,7 @@ export const Projects = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
-                                View Projects --
+                                View Project --
                             </a>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export const Projects = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
-                                View Projects --
+                                View Project --
                             </a>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Bokku <span className="text-purple-500">App </span> </h3>
                         <img src={Bokku} alt="bokku pic" className="w-70 h-48 ml-20"/>
                         <p className="text-white mb-4">An app that helps large-scale and small-scale businesses schedule payments for their workers</p>
-                        {/* <a href="https://random-quotes-app.netlify.app/" target="_blank" /> */}
+                        {/* <a href="https://bokku-test.vercel.app/" target="_blank" /> */}
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "TailwindCSS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
@@ -70,8 +70,8 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
-                                View Projects --
+                            <a href="https://bokku-test.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                View Project --
                             </a>
                         </div>
                     </div>
@@ -91,8 +91,8 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
-                                View Projects --
+                            <a href="https://25-5-clock-wine.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                View Project --
                             </a>
                         </div>
                     </div>
