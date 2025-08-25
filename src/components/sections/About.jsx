@@ -23,7 +23,7 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-400 mb-6 text-2xl">
-                        A passionate developer with keen attention to detail in building web apps and creating solutions to coding problems
+                        I am a passionate developer with keen attention to detail in building web apps, websites, and creating solutions to coding problems.
                     </p>
                     <div className="grid grid-cols-1 gap-6"> {/* md:grid-cols-2 */}
                         <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
@@ -38,6 +38,7 @@ export const About = () => {
                             </div> */}
                         </div>
                     </div>
+                    
                 </div>
                 <div className="mt-8">
                     <div className=" mb-8 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
@@ -59,20 +60,56 @@ export const About = () => {
                         </h3>
                         <div className="space-y-4 text-white">
                             <div>
-                                <ImPointRight style={{marginTop: "10px"}}/> <h4 className="font-semibold text-xl">Frontend Developer at Data Access Technology Services (2022-2024)</h4>
-                                <p>•  Assisted in building frontend components and integrating REST APIs</p>
-                                <p>•  Participated in code reviews, debugging, and refactoring sessions to maintain code quality and performance</p>
-                                <p>•  Used version control tools like Git and platforms like GitHub for collaboration and source code management.</p>
+                                <ImPointRight style={{marginTop: "10px"}}/> 
+                                <h4  style={{ textShadow: "2px 2px 5px blue" }} className="font-semibold text-xl">Frontend Developer at Data Access Technology Services (2022-2024)</h4>
+                                <p>•  I have assisted in building frontend components and integrating REST APIs</p>
+                                <p>•  I have participated in code reviews, debugging, and refactoring sessions to maintain code quality and performance</p>
+                                <p>•  I made use of version control tools like Git and platforms like GitHub for collaboration and source code management.</p>
                             </div>
                             <div>
-                                <ImPointRight style={{marginTop: "10px"}}/><h4 className="font-semibold text-xl">Intern at Petroleum Training Institute, ICT Center (2022)</h4>
+                                <ImPointRight style={{marginTop: "10px"}}/>
+                                <h4 style={{ textShadow: "2px 2px 5px blue" }} className="font-semibold text-xl">Intern at Petroleum Training Institute, ICT Center (2022)</h4>
                                 <p>•  Strong hardware and software troubleshooting and diagnostic ability.</p>
                                 <p>•  Solid understanding of computer hardware and OS functionality.</p>
                                 <p>•  Knowledge of common cybersecurity threats and how to prevent them.</p>
                                 <p>•  Basic networking and configuration skills.</p>
-                                <p>•  Hands-on experience with system setup, maintenance, and user support.</p>
+                                <p>•  Experience with system setup, maintenance, and user support.</p>
+                            </div>
+                             <div>
+                                <ImPointRight style={{marginTop: "10px"}}/>
+                                <h4 style={{ textShadow: "2px 2px 5px blue" }} className="font-semibold text-xl">Completed a certification course in Freecodecamp (2025)</h4>
+                                <p>• I have completed a frontend development libraries certification course in Freecodecamp</p>
+                                <div className="flex justify-between justify-center items-center">
+                                    <a href="https://www.freecodecamp.org/certification/gift-udofiah/front-end-development-libraries" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                        View certificate --
+                                    </a>
+                                </div>
                             </div>
                         </div>
+                        
+                    </div>
+                    <div className="mt-8">
+                        <a href="/resume" className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
+                            View Resume ->
+                        </a>
+                    </div>
+                    
+                    <div className=" mt-8 p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent">
+                            Hobbies <span className="text-white">🎯</span>
+                        </h3>
+                        <ul className="list-disc list-inside text-white space-y-2">
+                            <p style={{ textShadow: "2px 2px 5px blue" }}>Apart from coding, there are some few things I also love to do!</p>
+                            <li>
+                                Playing the Guitar🎸 and singing
+                            </li>
+                            <li>
+                                Sewing female wears✂️👗
+                            </li>
+                            <li>
+                                Watching movies
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

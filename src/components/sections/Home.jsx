@@ -3,7 +3,7 @@ export const Home = () => {
     return(
         <section id="home" className="min-h-screen flex items-center justify-center relative">
             <div className="text-center z-10 px-4">
-                <h1 className="text-5xl md:text-7xl text-gray-400 font-bold mb-6">
+                <h1 className="text-5xl md:text-7xl text-blue-400 font-bold mb-6">
                     Hi there! <span className="wave" role="img" aria-labelledby="wave"> 👋🏻 </span> 😃
                 </h1>
                 <p className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent leading-right">

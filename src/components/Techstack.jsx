@@ -38,7 +38,8 @@ function Techstack() {
       </div>
       <div className="tech-icons transition-transform duration-300 ease-in-out hover:scale-105">
         <SiSupabase />
-        <p className="text-xl mt-2">Supabase</p>
+        <p className="text-xl mt-2">Supabase</p> 
+        {/* Github */}
       </div>
       <div className="tech-icons transition-transform duration-300 ease-in-out hover:scale-105">
         <SiWeb3Dotjs />  

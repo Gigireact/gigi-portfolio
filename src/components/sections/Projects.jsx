@@ -1,4 +1,4 @@
-import Random from "../../assets/randompic.png"
+import Calculator from "../../assets/calculator.png"
 import Bokku from "../../assets/bokku.png"
 import Lint from "../../assets/lint.png"
 import Clock from "../../assets/clock.png"
@@ -10,15 +10,15 @@ export const Projects = () => {
                 <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent text-center">
                     Featured Projects
                 </h2>
-                <h2 className="mb-8 text-gray-400">These are a few of my projects i have worked on</h2>
+                <h2 style={{ textShadow: "2px 2px 5px blue" }} className="mb-8 text-400">These are a few of my projects i have worked on</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
                     {/* first project i.e random quotes app*/}
 
                     <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Random <span className="text-purple-500">Quotes </span> App</h3>
-                        <img src={Random} alt="random quotes pic" className="w-70 h-48 ml-20"/>
-                        <p className="text-white mb-4">An app that displays different quotes and the author while changing the background colour of the app with each click</p>
+                        <h3 className="text-xl font-bold mb-2">Calculator <span className="text-purple-500">App</span> </h3>
+                        <img src={Calculator} alt="calculator pic" className="w-70 h-48 ml-20"/>
+                        <p className="text-white mb-4">An app that calculates all kinds of basic mathematical problems</p>
                         {/* <a href="https://random-quotes-app.netlify.app/" target="_blank" /> */}
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "CSS", "..."].map((tech, key) => (
@@ -28,18 +28,18 @@ export const Projects = () => {
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="#" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                            <a href="https://calculator-app-sepia-seven.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                 View Project --
                             </a>
                         </div>
                     </div>
 
-                    {/* Second project i.e Lint*/}
+                    {/* Second project i.e chat app*/}
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Lint <span className="text-purple-500">App </span> </h3>
+                        <h3 className="text-xl font-bold mb-2">Chat <span className="text-purple-500">App </span> </h3>
                         <img src={Lint} alt="lint pic" className="w-70 h-48 ml-20"/>
-                        <p className="text-white mb-4">An app that helps bring tech enthusiasts, developers, designers and entrepreneurs to collaborate and share ideas.</p>
+                        <p className="text-white mb-4">An app that enables seemless interactions between people</p>
                         {/* <a href="https://random-quotes-app.netlify.app/" target="_blank" /> */}
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "CSS", "TailwindCSS", "..."].map((tech, key) => (
