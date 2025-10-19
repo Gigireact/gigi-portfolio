@@ -89,7 +89,7 @@ export const About = () => {
                         
                     </div>
                     <div className="mt-8">
-                        <a href="/resume" className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
+                        <a href="https://docs.google.com/document/d/1E23cDI_YHx6DM4UbKKs5W5WCr1MybKWmZGakb3XqXqM/edit?tab=t.0" className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
                             View Resume ->
                         </a>
                     </div>
