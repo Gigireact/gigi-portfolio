@@ -1,6 +1,7 @@
 import Techstack from "../Techstack";
 import { ImPointRight } from "react-icons/im";
 import Resume from "../../Resume.pdf";
+import Resume2 from "../../GIFT UDOFIAH resume real.pdf";
 
 export const About = () => {
 
@@ -89,9 +90,12 @@ export const About = () => {
                         </div>
                         
                     </div>
-                    <div className="mt-8">
+                    <div className="flex justify-center gap-8">
                         <a href={Resume} className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
-                            View Resume ->
+                            View Resume 1->
+                        </a>
+                        <a href={Resume2} className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
+                            View Resume 2->
                         </a>
                     </div>
                     
