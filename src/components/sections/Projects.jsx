@@ -15,14 +15,14 @@ export const Projects = () => {
                 <h2 style={{ textShadow: "2px 2px 5px blue" }} className="mb-8 text-400">These are a few of my projects i have worked on</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                    {/* first project i.e random quotes app*/}
+                    {/* first project i.e supachat app*/}
 
                     <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Supachat <span className="text-purple-500">App</span> </h3>
                         <img src={Supachat} alt="supachat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">A chat application that uses supabase for authentication </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "CSS", "..."].map((tech, key) => (
+                            {["React", "Tailwind CSS", "Supabase", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
@@ -35,14 +35,14 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    {/* Second project i.e chat app*/}
+                    {/* Second project i.e 4D website*/}
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">4D <span className="text-purple-500">Website </span> </h3>
                         <img src={ADweb} alt="4D web pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">A website built for 4D startup</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "CSS", "TailwindCSS", "..."].map((tech, key) => (
+                            {["React", "Typescript", "TailwindCSS", "Node JS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
@@ -61,7 +61,6 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">Bokku <span className="text-purple-500">App </span> </h3>
                         <img src={Bokku} alt="bokku pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">An app that helps large-scale and small-scale businesses schedule payments for their workers</p>
-                        {/* <a href="https://bokku-test.vercel.app/" target="_blank" /> */}
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "TailwindCSS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
@@ -82,9 +81,8 @@ export const Projects = () => {
                         <h3 className="text-xl font-bold mb-2">25+5 <span className="text-purple-500">Clock </span> App</h3>
                         <img src={Clock} alt="clock pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">An app that helps to time events and beeps when the time is up</p>
-                        {/* <a href="https://random-quotes-app.netlify.app/" target="_blank" /> */}
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "CSS", "..."].map((tech, key) => (
+                            {["React", "CSS", "Bootstrap", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
