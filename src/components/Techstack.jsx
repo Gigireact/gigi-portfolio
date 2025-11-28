@@ -5,7 +5,7 @@ import { SiTailwindcss, SiTypescript, SiSupabase, SiWeb3Dotjs } from "react-icon
 
 function Techstack() {
   return (
-    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 place-items-center">
+    <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 place-items-center justify-center mx-auto w-full">
 
 
       <div className="tech-icons transition-transform duration-300 ease-in-out hover:scale-105">
