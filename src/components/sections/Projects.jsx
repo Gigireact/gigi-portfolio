@@ -15,22 +15,21 @@ export const Projects = () => {
                 </h2>
                 <h2 style={{ textShadow: "2px 2px 5px blue" }} className="mb-8 text-400">These are a few of my projects i have worked on</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        {/* First project i.e shophub*/}
 
-                    {/* first project i.e supachat app*/}
-
-                    <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Supachat <span className="text-purple-500">App</span> </h3>
-                        <img src={Supachat} alt="supachat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A chat application that uses supabase for authentication </p>
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
+                        <h3 className="text-xl font-bold mb-2">Shopping <span className="text-purple-500">Website </span> App</h3>
+                        <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
+                        <p className="text-white mb-4">A website where you can shop various items from</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Tailwind CSS", "Supabase", "..."].map((tech, key) => (
+                            {["React", "CSS", "Bootstrap", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://supachat-six.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                            <a href="https://shop-webb.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                 View Project --
                             </a>
                         </div>
@@ -76,25 +75,27 @@ export const Projects = () => {
                         </div>
                     </div>
 
-                    {/* Fourth project i.e shophub*/}
+                    {/* fourth project i.e supachat app*/}
 
-                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Shopping <span className="text-purple-500">Website </span> App</h3>
-                        <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A website where you can shop various items from</p>
+                    <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
+                        <h3 className="text-xl font-bold mb-2">Supachat <span className="text-purple-500">App</span> </h3>
+                        <img src={Supachat} alt="supachat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
+                        <p className="text-white mb-4">A chat application that uses supabase for authentication </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "CSS", "Bootstrap", "..."].map((tech, key) => (
+                            {["React", "Tailwind CSS", "Supabase", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://shop-webb.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                            <a href="https://supachat-six.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                 View Project --
                             </a>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </section>
