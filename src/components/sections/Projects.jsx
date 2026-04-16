@@ -20,16 +20,16 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Shopping <span className="text-purple-500">Website </span> App</h3>
                         <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A website where you can shop various items from</p>
+                        <p className="text-white mb-4">A website where you can purchase various items from</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "CSS", "Bootstrap", "..."].map((tech, key) => (
+                            {["React", "CSS", "Bootstrap", "Typescript", "Tailwind", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://shop-webb.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                            <a href="https://shop-websit-sigma.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                 View Project --
                             </a>
                         </div>
