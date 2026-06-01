@@ -2,6 +2,7 @@ import Techstack from "../Techstack";
 import { ImPointRight } from "react-icons/im";
 import Resume from "../../Resume.pdf";
 import Resume2 from "../../GIFT UDOFIAH resume real.pdf";
+import directface from "../../assets/directface1.png"
 
 export const About = () => {
 
@@ -27,6 +28,13 @@ export const About = () => {
                     <p className="text-gray-400 mb-6 text-2xl">
                         I am a creative and passionate frontend developer with keen attention to detail in building web apps and websites. I am good with problem-solving, teamwork, and technical troubleshooting.
                     </p>
+                   <div className="flex justify-center items-center">
+  <img
+    src={directface}
+    alt="Gift Udofiah"
+    className="w-72 h-72 md:w-92 md:h-92 object-cover rounded-full border-4 border-purple-500 shadow-xl"
+  />
+</div>
                     <div className="grid grid-cols-1 gap-6"> {/* md:grid-cols-2 */}
                         <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
                             <h3 className="text-3xl mb-4"> Proficient skills</h3>

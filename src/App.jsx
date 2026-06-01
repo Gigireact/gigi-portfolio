@@ -46,6 +46,8 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
       >
+
+        
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
