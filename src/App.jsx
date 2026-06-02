@@ -1,5 +1,9 @@
 import { useState, useLayoutEffect } from "react";
 import Lenis from "@studio-freight/lenis";
+import { tsParticles } from "@tsparticles/engine";
+// import Particles from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+
 
 import { LoadingScreen } from "./components/LoadingScreen";
 import "./App.css";
@@ -46,6 +50,20 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-black text-gray-100`}
       >
+        {/* <Particles 
+          params={{
+          particles: {
+            line_linked: {
+              shadow: {
+                enable: true,
+                color: "black",
+                blur: 5
+              }
+            }
+          }
+        }}
+         
+        /> */}
 
         
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
