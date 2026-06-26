@@ -3,7 +3,7 @@ import Bokku from "../../assets/bokku.png"
 import Lint from "../../assets/lint.png"
 import Clock from "../../assets/clock.png"
 import shophub from "../../assets/shophub.png"
-import Supachat from "../../assets/supachat img.png"
+import Zapchat from "../../assets/zap pic.png"
 import ADweb from "../../assets/4Dweb.png"
 
 export const Projects = () => {
@@ -78,18 +78,18 @@ export const Projects = () => {
                     {/* fourth project i.e supachat app*/}
 
                     <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">Supachat <span className="text-purple-500">App</span> </h3>
-                        <img src={Supachat} alt="supachat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A chat application that uses supabase for authentication </p>
+                        <h3 className="text-xl font-bold mb-2">Zapchat <span className="text-purple-500">App</span> </h3>
+                        <img src={Zapchat} alt="zapchat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
+                        <p className="text-white mb-4">An application that allows users to chat with each other </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Tailwind CSS", "Supabase", "..."].map((tech, key) => (
+                            {["React", "Tailwind CSS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a href="https://supachat-six.vercel.app/" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                            <a href="https://zapchat-one.vercel.app" className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                 View Project --
                             </a>
                         </div>

@@ -194,7 +194,7 @@
 
 import { useEffect, useRef } from "react";
 import Type from "../Type.jsx";
-import straighthead from "../../assets/straighthead1.png";
+import portrait from "../../assets/portrait.png";
 
 const AnimatedBackground = () => {
   const canvasRef = useRef(null);
@@ -373,7 +373,7 @@ export const Home = () => {
         {/* RIGHT SIDE */}
         <div className="flex md:w-1/2">
           <img
-            src={straighthead}
+            src={portrait}
             alt="Gift Udofiah"
           />
         </div>
