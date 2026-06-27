@@ -63,7 +63,7 @@ export const Projects = () => {
                         <img src={Tasktics} alt="tasktics pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">A project management app that allows users to log in and manage their tasks</p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "TailwindCSS", "..."].map((tech, key) => (
+                            {["React", "TailwindCSS", "Firebase", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
                                     {tech}
                                 </span>
