@@ -6,18 +6,6 @@ import directface from "../../assets/directface1.png"
 
 export const About = () => {
 
-    // const frontendSkills = [
-    //     "React",
-    //     "Javascript", 
-    //     "TailwindCSS", 
-    //     "Typescript",
-    //     "HTML",
-    //     "CSS",
-    //     "Bootstrap",
-    //     "Supabase",
-    //     "Web3"
-    // ];
-
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
             <div className="max-w-4xl mx-auto px-4">
@@ -39,13 +27,6 @@ export const About = () => {
                         <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
                             <h3 className="text-3xl mb-4"> Proficient skills</h3>
                             <Techstack />
-                            {/* <div className="flex flex-wrap gap-12">
-                                {frontendSkills.map((tech, key) => (
-                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-3 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                                        {tech}
-                                    </span>
-                                ))}
-                            </div> */}
                         </div>
                     </div>
                     
@@ -100,10 +81,10 @@ export const About = () => {
                     </div>
                     <div className="flex justify-center gap-8">
                         <a href={Resume2} className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
-                            View Resume 1->
+                            View Resume 1 →
                         </a>
                         <a href={Resume} className="mt-12 border border-purple-500/50 text-purple-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow[0_0_15px_rgba(128, 0, 128, 0.4)] hover:bg-purple-500/10">
-                            View Resume 2->
+                            View Resume 2 →
                         </a>
                     </div>
                     
