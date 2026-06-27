@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -93,7 +93,7 @@ export const Contacts = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                // href="https://www.linkedin.com/in/soumyajit4419/"
+                                href="https://www.linkedin.com/in/gift-udofiah-887224402/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-colour  home-social-icons">
