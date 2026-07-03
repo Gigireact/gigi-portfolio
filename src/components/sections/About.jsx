@@ -101,7 +101,7 @@ export const About = () => {
                                 Sewing female wears✂️👗
                             </li>
                             <li>
-                                Watching movies
+                                Watching movies and learning new things🧐
                             </li>
                         </ul>
                     </div>
