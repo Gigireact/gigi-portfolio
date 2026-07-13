@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap, FaJs } from "react-icons/fa";
-import { SiTailwindcss, SiTypescript, SiSupabase, SiWeb3Dotjs } from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiSupabase, SiWeb3Dotjs, SiVite } from "react-icons/si";
 
 
 function Techstack() {
@@ -37,9 +37,8 @@ function Techstack() {
         <p className="text-xl mt-2">Bootstrap</p>
       </div>
       <div className="tech-icons transition-transform duration-300 ease-in-out hover:scale-105">
-        <SiSupabase />
-        <p className="text-xl mt-2">Supabase</p> 
-        {/* Github */}
+        <SiVite />
+        <p className="text-xl mt-2">Vite</p> 
       </div>
       <div className="tech-icons transition-transform duration-300 ease-in-out hover:scale-105">
         <SiWeb3Dotjs />  

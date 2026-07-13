@@ -21,7 +21,8 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">ShopHub <span className="text-purple-500">Website </span> </h3>
                         <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A website where you can purchase various items from</p>
+                        <p className="text-white mb-4">A modern, responsive e-commerce website for browsing products and delivering a smooth, user-friendly shopping experience.
+</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "CSS", "Typescript", "Tailwind", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
@@ -41,7 +42,7 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">4D <span className="text-purple-500">Website </span> </h3>
                         <img src={ADweb} alt="4D web pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A website built for 4D startup</p>
+                        <p className="text-white mb-4">4D's responsive website built to showcase its brand, services, and online presence.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Typescript", "TailwindCSS", "Node JS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
@@ -61,7 +62,7 @@ export const Projects = () => {
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Task<span className="text-purple-500">Tics </span> </h3>
                         <img src={Tasktics} alt="tasktics pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">A project management app that allows users to log in and manage their tasks</p>
+                        <p className="text-white mb-4">A modern project management app that helps users organize tasks, monitor progress, and stay productive by logging in and signing up.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "TailwindCSS", "Firebase", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
@@ -81,7 +82,7 @@ export const Projects = () => {
                     <div className="p-6 justify-center items-center rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Zapchat <span className="text-purple-500">App</span> </h3>
                         <img src={Zapchat} alt="zapchat pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
-                        <p className="text-white mb-4">An application that allows users to chat with each other </p>
+                        <p className="text-white mb-4">A real-time messaging application that enables users to connect and chat through a clean, responsive interface.</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Tailwind CSS", "..."].map((tech, key) => (
                                 <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all">
