@@ -14,7 +14,7 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-400 mb-6 text-2xl">
-                        I am a creative, skilled and dedicated frontend developer with keen attention to detail in building web apps and websites. I am good with problem-solving, teamwork, and technical troubleshooting.
+                        I'm a frontend developer who enjoys building modern, responsive web applications that combine clean design with great user experience. I specialize in React, TypeScript, and Tailwind CSS, and I'm currently expanding into backend development as I work toward becoming a full-stack engineer. I love solving real-world problems with code and continuously improving my craft.
                     </p>
                    <div className="flex justify-center items-center">
                     <img
