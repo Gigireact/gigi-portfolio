@@ -50,8 +50,8 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
         <Home />
-        <About />
         <Projects />
+        <About />
         <Contacts />
       </div>
     </>

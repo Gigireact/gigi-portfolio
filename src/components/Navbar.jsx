@@ -24,11 +24,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         <a href="#home" className="flex gap-2 text-gray-300 hover:text-white transition-colors">
                             <FaHome style={{ marginTop: "2px" }} size={20} />Home
                         </a>
-                        <a href="#about" className="flex gap-2 text-gray-300 hover:text-white transition-colors">
-                            <AiOutlineUser style={{ marginTop: "2px" }} size={20} /> About
-                        </a>
                         <a href="#projects" className="flex gap-2 text-gray-300 hover:text-white transition-colors">
                             <AiOutlineFundProjectionScreen style={{ marginTop: "2px" }} size={20} /> Projects
+                        </a>
+                        <a href="#about" className="flex gap-2 text-gray-300 hover:text-white transition-colors">
+                            <AiOutlineUser style={{ marginTop: "2px" }} size={20} /> About
                         </a>
                         <a href="#contacts" className="flex gap-2 text-gray-300 hover:text-white transition-colors">
                             <MdContactMail style={{ marginTop: "2px" }} size={20} />Contacts
