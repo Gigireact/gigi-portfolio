@@ -1,7 +1,3 @@
-import Calculator from "../../assets/calculator.png"
-import Bokku from "../../assets/bokku.png"
-import Lint from "../../assets/lint.png"
-import Clock from "../../assets/clock.png"
 import shophub from "../../assets/shophub.png"
 import Zapchat from "../../assets/zap pic.png"
 import ADweb from "../../assets/4Dweb.png"
@@ -19,7 +15,7 @@ export const Projects = () => {
                     {/* First project i.e shophub*/}
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
-                        <h3 className="text-xl font-bold mb-2">ShopHub <span className="text-purple-500">Website </span> </h3>
+                        <h3 className="text-xl font-bold mb-2">Sellar <span className="text-purple-500">Website </span> </h3>
                         <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">A modern, responsive e-commerce website for browsing products and delivering a smooth, user-friendly shopping experience.
 </p>
