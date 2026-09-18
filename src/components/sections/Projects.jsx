@@ -10,13 +10,13 @@ export const Projects = () => {
                 <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-teal-400 bg-clip-text text-transparent text-center">
                     Featured Projects
                 </h2>
-                <h2 style={{ textShadow: "2px 2px 5px blue" }} className="mb-8 text-400">These are a few of my projects i have worked on</h2>
+                <h2 style={{ textShadow: "2px 2px 5px blue" }} className="mb-8 text-400">These are a few of the projects i have built</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* First project i.e shophub*/}
+                    {/* First project i.e sellar*/}
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition">
                         <h3 className="text-xl font-bold mb-2">Sellar <span className="text-purple-500">Website </span> </h3>
-                        <img src={shophub} alt="shophub pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
+                        <img src={shophub} alt="sellar pic" className="w-full max-w-[250px] h-auto mx-auto my-4 object-contain"/>
                         <p className="text-white mb-4">A modern, responsive e-commerce website for browsing products and delivering a smooth, user-friendly shopping experience.
 </p>
                         <div className="flex flex-wrap gap-2 mb-4">
