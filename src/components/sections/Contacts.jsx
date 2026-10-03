@@ -1,7 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import { AiFillGithub, AiOutlineTwitter, AiFillInstagram, } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTiktok } from "react-icons/fa";
 
 export const Contacts = () => {
 
@@ -102,11 +102,11 @@ export const Contacts = () => {
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.instagram.com/gift_udofiah"
+                                href="https://www.tiktok.com/@codewithgift?_r=1&_t=ZS-9AFMb8WTzVu"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="icon-colour home-social-icons">
-                                <AiFillInstagram />
+                                <FaTiktok />
                             </a>
                         </li>
                     </ul>
