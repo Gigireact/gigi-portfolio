@@ -14,7 +14,7 @@ export const About = () => {
                 </h2>
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-400 mb-6 text-2xl">
-                        I'm a frontend developer passionate about building modern, responsive web applications with clean design and great user experiences. I specialize in React, TypeScript, and Tailwind CSS, while expanding into backend development to become a full-stack engineer.                    </p>
+                        I'm passionate about building modern, responsive web applications with clean design and great user experiences. I specialize in frontend development while actively expanding into backend development to become a full-stack engineer.                    </p>
                    <div className="flex justify-center items-center">
                     <img
                         src={directface}
