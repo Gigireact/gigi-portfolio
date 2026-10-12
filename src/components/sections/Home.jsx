@@ -1,6 +1,15 @@
 import { useEffect, useRef } from "react";
+import {
+  FaReact,
+  FaJs,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3Alt,
+} from "react-icons/fa";
+import { SiMongodb, SiTailwindcss, SiExpress, SiTypescript } from "react-icons/si";
 import Type from "../Type.jsx";
 import portrait from "../../assets/portrait.png";
+
 
 const AnimatedBackground = () => {
   const canvasRef = useRef(null);
@@ -38,7 +47,7 @@ const AnimatedBackground = () => {
       strokeWidth: 0.5 + Math.random() * 0.5,
     }));
 
-    // Slow diagonal lines (static shimmer effect)
+    // Slow diagonal lines 
     const lines = Array.from({ length: 6 }, (_, i) => ({
       offset: i * 160,
       speed: 0.08 + Math.random() * 0.5,
@@ -96,7 +105,7 @@ const AnimatedBackground = () => {
         ctx.fill();
       });
 
-      // Soft teal accent particles (fewer, larger glow hints)
+      // Soft teal accent particles 
       particles.slice(0, 8).forEach((p, i) => {
         const pulse = Math.sin(tick * 0.012 + i) * 0.5 + 0.5;
         ctx.beginPath();
@@ -125,6 +134,138 @@ const AnimatedBackground = () => {
   );
 };
 
+
+// Outer ring -> rotates clockwise
+const OUTER_ICONS = [
+  { name: "React", Icon: FaReact, color: "#61dafb" },
+  { name: "Node.js", Icon: FaNodeJs, color: "#68a063" },
+  { name: "TypeScript", Icon: SiTypescript, color: "#3178c6" },
+  { name: "Express", Icon: SiExpress, color: "#e5e7eb" },
+  { name: "MongoDB", Icon: SiMongodb, color: "#47a248" },
+];
+
+// Inner ring -> rotates anticlockwise
+const INNER_ICONS = [
+  { name: "JavaScript", Icon: FaJs, color: "#f7df1e" },
+  { name: "Tailwind", Icon: SiTailwindcss, color: "#38bdf8" },
+  { name: "HTML5", Icon: FaHtml5, color: "#e34f26" },
+  { name: "CSS3", Icon: FaCss3Alt, color: "#1572b6" },
+];
+
+const OrbitRing = ({ icons, radius, size, direction, duration, dashed }) => {
+  const step = 360 / icons.length;
+  const spin = direction === "cw" ? "orbit-cw" : "orbit-ccw";
+  const counter = direction === "cw" ? "orbit-ccw" : "orbit-cw";
+
+  return (
+    <div
+      className="orbit-ring absolute left-1/2 top-1/2 rounded-full"
+      style={{
+        width: size,
+        height: size,
+        marginLeft: `calc(${size} / -2)`,
+        marginTop: `calc(${size} / -2)`,
+        border: `1px ${dashed ? "dashed" : "solid"} rgba(139,92,246,0.35)`,
+        animation: `${spin} ${duration}s linear infinite`,
+        "--r": radius,
+      }}
+    >
+      {icons.map(({ name, Icon, color }, i) => {
+        const angle = i * step;
+        return (
+          // Static placement on the circle
+          <div
+            key={name}
+            className="absolute left-1/2 top-1/2"
+            style={{
+              width: 0,
+              height: 0,
+              transform: `rotate(${angle}deg) translateY(calc(var(--r) * -1)) rotate(${-angle}deg)`,
+            }}
+          >
+            {/* Counter-rotation keeps icon + label upright */}
+            <div
+              className="orbit-badge flex flex-col items-center gap-1"
+              style={{
+                width: 64,
+                marginLeft: -32,
+                marginTop: -24,
+                animation: `${counter} ${duration}s linear infinite`,
+              }}
+            >
+              <div
+                className="flex items-center justify-center w-11 h-11 rounded-xl border border-white/10 bg-[#12122a]/90 backdrop-blur shadow-lg"
+                style={{ boxShadow: `0 0 18px ${color}22` }}
+              >
+                <Icon size={22} color={color} />
+              </div>
+              <span className="text-[10px] text-gray-300 leading-none">
+                {name}
+              </span>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+const OrbitPortrait = () => (
+  <div
+    className="relative mx-auto"
+    style={{
+      // overall orbit diameter 
+      "--orbit": "min(88vw, 480px)",
+      width: "var(--orbit)",
+      height: "var(--orbit)",
+    }}
+  >
+    <style>{`
+      @keyframes orbit-cw  { from { transform: rotate(0deg); }   to { transform: rotate(360deg); } }
+      @keyframes orbit-ccw { from { transform: rotate(0deg); }   to { transform: rotate(-360deg); } }
+      .orbit-wrap:hover .orbit-ring,
+      .orbit-wrap:hover .orbit-badge { animation-play-state: paused !important; }
+    `}</style>
+
+    <div className="orbit-wrap absolute inset-0">
+      {/* Outer ring: clockwise */}
+      <OrbitRing
+        icons={OUTER_ICONS}
+        size="var(--orbit)"
+        radius="calc(var(--orbit) / 2)"
+        direction="cw"
+        duration={40}
+      />
+
+      {/* Inner ring: anticlockwise */}
+      <OrbitRing
+        icons={INNER_ICONS}
+        size="calc(var(--orbit) * 0.7)"
+        radius="calc(var(--orbit) * 0.35)"
+        direction="ccw"
+        duration={30}
+        dashed
+      />
+    </div>
+
+    {/* Portrait in the centre */}
+    <div
+      className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full overflow-hidden border-2 border-purple-500/40 shadow-[0_0_40px_rgba(139,92,246,0.35)] bg-[#12122a]"
+      style={{
+      width: "calc(var(--orbit) * 0.58)",
+      height: "calc(var(--orbit) * 0.58)",
+    }}
+    >
+      <img
+        src={portrait}
+        alt="Gift Udofiah"
+        className="w-full h-full object-cover object-top"
+      />
+    </div>
+  </div>
+);
+
+
 export const Home = () => {
   return (
     <section
@@ -144,7 +285,7 @@ export const Home = () => {
         }}
       />
 
-      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 relative z-10">
+      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12 relative z-10 py-16">
 
         {/* LEFT SIDE */}
         <div className="text-center">
@@ -177,11 +318,8 @@ export const Home = () => {
         </div>
 
         {/* RIGHT SIDE */}
-        <div className="flex md:w-1/2">
-          <img
-            src={portrait}
-            alt="Gift Udofiah"
-          />
+        <div className="flex md:w-1/2 items-center justify-center">
+          <OrbitPortrait />
         </div>
       </div>
     </section>
