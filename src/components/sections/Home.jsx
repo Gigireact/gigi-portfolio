@@ -6,7 +6,7 @@ import {
   FaHtml5,
   FaCss3Alt,
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress, SiTypescript } from "react-icons/si";
+import { SiMongodb, SiTailwindcss, SiExpress, SiTypescript, } from "react-icons/si";
 import Type from "../Type.jsx";
 import portrait from "../../assets/portrait.png";
 
