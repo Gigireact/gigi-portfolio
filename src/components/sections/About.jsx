@@ -147,7 +147,7 @@ export const About = () => {
                 </p>
                 <div className="flex justify-between justify-center items-center">
                   <a
-                    href="YOUR_TECHYJAUNT_CERTIFICATE_LINK"
+                    href="MY TECHYJAUNT CERTIFICATE LINK"
                     target="_blank"
                     rel="noreferrer"
                     className="text-purple-400 hover:text-purple-300 transition-colors my-4"
