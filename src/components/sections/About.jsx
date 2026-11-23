@@ -1,8 +1,8 @@
 import Techstack from "../Techstack";
 import { ImPointRight } from "react-icons/im";
-import Resume from "../../Resume.pdf";
-import Resume2 from "../../GIFT UDOFIAH resume real.pdf";
-import port from "../../assets/portface.jpeg";
+import Resume from "../../Gift_Udofiah_Updated_Resume.pdf";
+import Resume2 from "../../Gift_Udofiah_Updated_CV.pdf";
+import port from "../../assets/portface2.png";
 
 export const About = () => {
   return (
