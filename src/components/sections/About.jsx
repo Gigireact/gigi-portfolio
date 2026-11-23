@@ -2,7 +2,7 @@ import Techstack from "../Techstack";
 import { ImPointRight } from "react-icons/im";
 import Resume from "../../Resume.pdf";
 import Resume2 from "../../GIFT UDOFIAH resume real.pdf";
-import directface from "../../assets/directface1.png";
+import port from "../../assets/portface.jpeg";
 
 export const About = () => {
   return (
@@ -26,9 +26,9 @@ export const About = () => {
           </p>
           <div className="flex justify-center items-center">
             <img
-              src={directface}
+              src={port}
               alt="Gift Udofiah"
-              className="w-72 h-72 md:w-92 md:h-92 object-cover rounded-full border-4 border-purple-500 shadow-xl"
+              className="w-72 h-72 md:w-80 md:h-80 object-cover object-[center_30%] rounded-full border-4 border-purple-500 shadow-xl"
             />
           </div>
           <div className="grid grid-cols-1 gap-6">
@@ -122,6 +122,34 @@ export const About = () => {
                 <div className="flex justify-between justify-center items-center">
                   <a
                     href="https://www.freecodecamp.org/certification/gift-udofiah/front-end-development-libraries"
+                    className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                  >
+                    View certificate --
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <ImPointRight style={{ marginTop: "10px" }} />
+                <h4
+                  style={{ textShadow: "2px 2px 5px blue" }}
+                  className="font-semibold text-xl"
+                >
+                  Earned a Backend Development Certificate from TechyJaunt
+                  (2026)
+                </h4>
+                <p>
+                  • Successfully completed TechyJaunt's Backend Development
+                  program (Cohort 9.0), gaining practical experience in building
+                  RESTful APIs, server-side applications, database management,
+                  authentication, and backend deployment using Node.js,
+                  Express.js, and MongoDB.
+                </p>
+                <div className="flex justify-between justify-center items-center">
+                  <a
+                    href="YOUR_TECHYJAUNT_CERTIFICATE_LINK"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-purple-400 hover:text-purple-300 transition-colors my-4"
                   >
                     View certificate --
