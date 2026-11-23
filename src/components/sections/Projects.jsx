@@ -111,7 +111,7 @@ export const Projects = () => {
               KoboMarket is an e-commerce platform where users can browse products, manage shopping carts, and place orders, with vendor management and admin approval features.
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Claude", "..."].map((tech, key) => (
+              {["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "..."].map((tech, key) => (
                 <span
                   key={key}
                   className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_0_15px_rgba(128, 0, 128, 0.4)] transition-all"
