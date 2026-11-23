@@ -1,6 +1,6 @@
 import shophub from "../../assets/shophub.png";
 import Zapchat from "../../assets/zap pic.png";
-import ADweb from "../../assets/4dweb.png";
+import ADweb from "../../assets/4Dweb.png";
 import Stayeasy from "../../assets/stayeasypic.png";
 import Tasktics from "../../assets/tasktics.png";
 import kobomarket from "../../assets/kobomarket.png";
